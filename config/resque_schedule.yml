@@ -1,0 +1,5 @@
+every_day_put_data_from_cbr_to_cahce:
+  cron: "1 0 * * *"
+  class: Cbr_rate
+  args:
+  description: "every day at 1:00 am put data from cbr to cahce"
